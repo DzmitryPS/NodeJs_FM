@@ -14,10 +14,6 @@ var args = require("minimist")(process.argv.slice(2),{
     })
 
 
-if (process.env.HELLO){
-    console.log(process.env.HELLO)
-}
-
 
 if(args.help){
     console.log(args.help)
